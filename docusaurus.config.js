@@ -4,13 +4,13 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 module.exports = {
   title: "ChitChatLabs",
   tagline: "Turning chats into tech",
-  url: "https://docs.chitchatlabs.com",
-  baseUrl: "/public-docs/",
+  url: "https://docs.chitchatlabs.com", // Your custom domain
+  baseUrl: "/", // Set this to "/" for custom domains
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "chitchatlabs", // Usually your GitHub org/user name.
-  projectName: "ccl-docs", // Usually your repo name.
+  organizationName: "chitchatlabs", // Your GitHub username or org
+  projectName: "ccl-docs", // Your repo name
 
   presets: [
     [
@@ -18,7 +18,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: '/' // This ensures /docs is the root of the docs
+          routeBasePath: '/' // Root of the documentation
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
