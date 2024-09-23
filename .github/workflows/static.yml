@@ -1,4 +1,4 @@
-name: Deploy Docusaurus to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -55,11 +55,11 @@ jobs:
           curl -X POST -H 'Content-type: application/json' --data "{
             \"attachments\": [
               {
-                \"fallback\": \"ChitChatLabs Documentation Deployment Status\",
+                \"fallback\": \"Documentation UI Deployment Status\",
                 \"color\": \"#36a64f\",
-                \"pretext\": \"*ChitChatLabs Documentation Deployment Notification* 🚀\",
+                \"pretext\": \"*Documentation UI Deployment Notification* 🚀\",
                 \"title\": \"Deployment to GitHub Pages\",
-                \"text\": \"The deployment of the ChitChatLabs documentation to GitHub Pages has completed.\",
+                \"text\": \"Documentation UI build pushed to public repo.\",
                 \"fields\": [
                   {
                     \"title\": \"Status\",
@@ -72,7 +72,7 @@ jobs:
                     \"short\": true
                   },
                   {
-                    \"title\": \"Repository\",
+                    \"title\": \"Public Repository\",
                     \"value\": \"<https://github.com/chitchatlabs/public-docs|public-docs>\"
                   }
                 ],
