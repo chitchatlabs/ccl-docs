@@ -5,7 +5,7 @@ module.exports = {
   title: "ChitChatLabs",
   tagline: "Turning chats into tech",
   url: "https://docs.chitchatlabs.com",
-  baseUrl: "/",
+  baseUrl: "/public-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
