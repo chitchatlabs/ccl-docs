@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Welcome to ChitChatLabs
 
 **ChitChatLabs** provides a powerful platform for businesses looking to automate their operations and engage customers directly through **WhatsApp**. Whether you're aiming to streamline appointment scheduling, handle customer inquiries, or facilitate transactions, ChitChatLabs offers the tools you need to enhance your WhatsApp Business experience.
@@ -36,10 +39,10 @@ Before you begin, make sure you have the following in place to use the full suit
 
 ## Quick Start Guide
 
-Once you have the prerequisites in place, follow our **[Onboarding Guide](docs/onboarding.md)** to connect your Facebook and WhatsApp Business accounts, set up your chatbot flows, and integrate payment or scheduling features. Our step-by-step tutorials will help you configure the system to match your business needs.
+Once you have the prerequisites in place, follow our **[Onboarding Guide](docs/2-onboarding.md)** to connect your Facebook and WhatsApp Business accounts, set up your chatbot flows, and integrate payment or scheduling features. Our step-by-step tutorials will help you configure the system to match your business needs.
 
 ChitChatLabs is designed to be intuitive, but if you need more guidance, this documentation will cover all aspects of the platform, from setting up to advanced features.
 
 ---
 
-For further assistance, visit our **[Support Page](docs/support.md)** or contact our team.
+For further assistance, visit our **[Support Page](docs/9-support.md)** or contact our team.

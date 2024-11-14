@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 # Support
 
 If you need any assistance or have questions about using **ChitChatLabs**, please feel free to reach out to us via:

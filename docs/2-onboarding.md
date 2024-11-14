@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Onboarding Guide
 
 Welcome to **ChitChatLabs**! To get started with automating your WhatsApp Business operations, follow these steps to configure your account.
